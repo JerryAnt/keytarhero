@@ -1,9 +1,85 @@
-.white, .red{
+.white, .red {
   width:64px;
   height:177px;
+  border: black solid 3px;
 }
 
-.black{
+.white {
+  background-color: #ffffff;
+}
+
+.uno{
+position: absolute;
+top:8px;
+right:143px;
+}
+
+.deux{
+position: absolute;
+top:8px;
+right:210px;
+}
+
+.trois{
+position: absolute;
+top:8px;
+right:286px;
+}
+
+.quatre{
+position: absolute;
+top:8px;
+right:423px;
+}
+
+.cinq{
+position: absolute;
+top:8px;
+right:493px;
+}
+
+.six{
+position: absolute;
+top:8px;
+right:633px;
+}
+
+.sept{
+position: absolute;
+top:8px;
+right:14px;
+}
+
+.huit{
+position: absolute;
+top:8px;
+right:16px;
+}
+
+.neuf{
+position: absolute;
+top:8px;
+right:18px;
+}
+
+.zero{
+position: absolute;
+top:8px;
+right:20px;
+}
+
+  .red {
+    background-color: red;
+}
+
+
+.black {
   width:35px;
   height:130px;
+  background-color: #000000;
+  border: black solid 3px;
+}
+
+.container {
+  display:flex;
 }
