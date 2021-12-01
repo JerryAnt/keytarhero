@@ -3,6 +3,17 @@
   width:64px;
   height:177px;
   border: black solid 3px;
+  box-shadow: 2px 2px black
+}
+
+.key {
+  transition:all 0.07s;
+}
+
+.playing{
+
+border: black solid 2px;
+transform: scale(0.98);
 }
 
 .white {
