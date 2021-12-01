@@ -42,3 +42,5 @@ proto: https://www.figma.com/file/Vd4vPcDBxXa6iTheD6SCQi/Untitled?node-id=0%3A1
 sources:
 keycode.info
 doorbell.wav from BELLDoor_Doorbell 6 (ID 2365)_BSB on https://bigsoundbank.com/
+guitar1.oga from https://upload.wikimedia.org/wikipedia/commons/6/63/Guitar_-_metal_-_Ex1.oga
+wahwah.ogg from https://upload.wikimedia.org/wikipedia/commons/9/98/Wah-wah_%2B_distortion_%28guitar%29.ogg
