@@ -4,6 +4,9 @@
 
 document.addEventListener('keydown', function(e){
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-  console.log(audio);
+
+  if(!audio) return; // if a key is not associated with a sound, function stops
+  audio.play(); //if I type on a key sounds come out
+
 });
 
