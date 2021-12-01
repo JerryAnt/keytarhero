@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <link rel="stylesheet" href="styles.css">
   <title>Keytar soundboard</title>
 </head>
 <body>
-  <div>
-    <div class="container">
-      <button data-key="81" class="white">q</button>
+  <div class="keys">
+    <div class="container main-keys">
+      <button data-key="81" class="white">
+        <kbd>q</kbd>
+        <span class="sound">doorbell</span></button>
       <div data-key="87" class="white">w</div>
       <div data-key="69" class="white">e</div>
       <div data-key="82" class="white">r</div>
@@ -24,16 +27,45 @@
       <div data-key="66" class="white">b</div>
       <div data-key="78" class="white">n</div>
     </div>
-    <div data-key="51" class="black uno">3</div>
-    <div data-key="52" class="black deux">4</div>
-    <div data-key="54" class="black trois">6</div>
-    <div data-key="55" class="black quatre">7</div>
-    <div data-key="56" class="black cinq">8</div>
-    <div data-key="48" class="black six">0</div>
-    <div data-key="189" class="black sept">-</div>
-    <div data-key="68" class="black huit">d</div>
-    <div data-key="70" class="black neuf">f</div>
-    <div data-key="71" class="black zero">g</div>
+    <div class="flat-keys">
+      <div data-key="51" class="black uno">3</div>
+      <div data-key="52" class="black deux">4</div>
+      <div data-key="54" class="black trois">6</div>
+      <div data-key="55" class="black quatre">7</div>
+      <div data-key="56" class="black cinq">8</div>
+      <div data-key="48" class="black six">0</div>
+      <div data-key="189" class="black sept">-</div>
+      <div data-key="68" class="black huit">d</div>
+      <div data-key="70" class="black neuf">f</div>
+      <div data-key="71" class="black zero">g</div>
+    </div>
   </div>
+    <audio data-key="81" src="sounds/doorbell.wav"></audio>
+    <audio data-key="87" src="sounds/doorbell.wav"></audio>
+    <audio data-key="69" src="sounds/doorbell.wav"></audio>
+    <audio data-key="82" src="sounds/doorbell.wav"></audio>
+    <audio data-key="84" src="sounds/doorbell.wav"></audio>
+    <audio data-key="89" src="sounds/doorbell.wav"></audio>
+    <audio data-key="85" src="sounds/doorbell.wav"></audio>
+    <audio data-key="73" src="sounds/doorbell.wav"></audio>
+    <audio data-key="79" src="sounds/doorbell.wav"></audio>
+    <audio data-key="80" src="sounds/doorbell.wav"></audio>
+    <audio data-key="90" src="sounds/doorbell.wav"></audio>
+    <audio data-key="88" src="sounds/doorbell.wav"></audio>
+    <audio data-key="67" src="sounds/doorbell.wav"></audio>
+    <audio data-key="66" src="sounds/doorbell.wav"></audio>
+    <audio data-key="78" src="sounds/doorbell.wav"></audio>
+    <audio data-key="86" src="sounds/doorbell.wav"></audio>
+    <audio data-key="51" src="sounds/doorbell.wav"></audio>
+    <audio data-key="52" src="sounds/doorbell.wav"></audio>
+    <audio data-key="54" src="sounds/doorbell.wav"></audio>
+    <audio data-key="55" src="sounds/doorbell.wav"></audio>
+    <audio data-key="56" src="sounds/doorbell.wav"></audio>
+    <audio data-key="48" src="sounds/doorbell.wav"></audio>
+    <audio data-key="189" src="sounds/doorbell.wav"></audio>
+    <audio data-key="68" src="sounds/doorbell.wav"></audio>
+    <audio data-key="70" src="sounds/doorbell.wav"></audio>
+    <audio data-key="71" src="sounds/doorbell.wav"></audio>
+    <script src="index.js"></script>
 </body>
 </html>
