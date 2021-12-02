@@ -1,7 +1,7 @@
-// TO DO When pressing the touch : change the appearance and the sound done
+
 // TO DO On click change the appearance
 // TO DO On click add the sound
-
+// DONE When pressing the key : change the appearance and the sound
 
 
 function playSound(e){
@@ -10,10 +10,12 @@ function playSound(e){
 
   if(!audio) return; // if a key is not associated with a sound, function stops
   audio.currentTime = 0; // doesnt wait for the sound to finish, it rewinds automatically
-  audio.play(); //can press multiple times, the sounds plays from the beginning
+  audio.play(); //can press multiple times, the sounds play from the beginning
 
   display.classList.add('playing');
 };
+
+
 
 
 function removeTransition(e) {
@@ -28,9 +30,7 @@ function stopDisplay(e){
 }
 
   const keys = document.querySelectorAll(".key");
-  console.log(keys)
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-
 
 
 document.addEventListener('keydown', playSound);

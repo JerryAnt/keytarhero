@@ -1,16 +1,53 @@
 /*Full screen macbook OK. Don't forget the responsiveness on other screens*/
+img {
+  display:block;
+  margin:auto;
+  width:70%;
+}
+
+.keys {
+  position:relative;
+  padding: 0px;
+}
+
+.white> .sound {
+  position:absolute;
+  bottom:5%;
+  width:35%;
+  height:12%;
+  box-shadow: 2px 2px grey;
+  background-color: white;
+  text-align:center;
+
+}
+
+.black> .sound {
+  position:absolute;
+  bottom:5%;
+  width:54%;
+  height:14%;
+  box-shadow: 2px 2px grey;
+  background-color: white;
+  text-align:center;
+
+}
 .white, .red {
-  width:64px;
+  width:64%;
   height:177px;
   border: black solid 3px;
   box-shadow: 2px 2px black
 }
 
-.key {
-  transition:all 0.07s;
+.white > p {
+vertical-align: center;
 }
 
-.playing{
+.key {
+  transition:all 0.07s;
+  position:relative;
+}
+
+.playing {
 
 border: black solid 2px;
 transform: scale(0.98);
@@ -20,76 +57,79 @@ transform: scale(0.98);
   background-color: #ffffff;
 }
 
-.uno{
-position: absolute;
-top:8px;
-right:983px;
+.uno {
+top:-2%;
+right:81%;
+width:37%;
+
 }
 
-.deux{
-position: absolute;
-top:8px;
-right:912px;
+.deux {
+top:-2%;
+right:81%;
+width:37%;
 }
 
-.trois{
-position: absolute;
-top:8px;
-right:772px;
+.trois {
+top:-2%;
+right:81%;
+width:37%;
 }
 
-.quatre{
-position: absolute;
-top:8px;
-right:703px;
+.quatre {
+top:-2%;
+right:81%;
+width:37%;
 }
 
-.cinq{
-position: absolute;
-top:8px;
-right:633px;
+.cinq {
+top:-2%;
+right:81%;
+width:37%;
 }
 
-.six{
-position: absolute;
-top:8px;
-right:493px;
+.six {
+top:-2%;
+right:81%;
+width:37%;
 }
 
-.sept{
-position: absolute;
-top:8px;
-right:423px;
+.sept {
+top:-2%;
+right:81%;
+width:37%;
 }
 
-.huit{
-position: absolute;
-top:8px;
-right:282px;
+.huit {
+top:-2%;
+right:81%;
+width:37%;
 }
 
-.neuf{
-position: absolute;
-top:8px;
-right:210px;
+.neuf {
+top:-2%;
+right:81%;
+width:37%;
 }
 
-.zero{
-position: absolute;
-top:8px;
-right:143px;
+.zero {
+top:-2%;
+right:81%;
+width:37%;
 }
 
-  .red {
-    background-color: red;
+.red {
+  background-color: red;
 }
 
 
 .black {
-  width:35px;
-  height:130px;
+  height:67%;
   background-color: #000000;
   border: black solid 3px;
+  position: absolute;
+
+
 }
 
 .container {
