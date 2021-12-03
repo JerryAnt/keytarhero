@@ -5,15 +5,12 @@ img {
   width:70%;
 }
 
-.keys {
-  position:relative;
-  padding: 0px;
-}
+
 
 .white> .sound {
   position:absolute;
   bottom:5%;
-  width:35%;
+  width:15%;
   height:12%;
   box-shadow: 2px 2px grey;
   background-color: white;
@@ -29,10 +26,38 @@ img {
   box-shadow: 2px 2px grey;
   background-color: white;
   text-align:center;
+}
+
+.chang{
+position: absolute;
+width: 600px;
+height: 366px;
+left: 148px;
+top: 0px;
 
 }
+
+.keytar {
+position: absolute;
+width: 1908px;
+left: -687px;
+top: 302px;
+
+background: url(ax_synth_top_gal.png);
+transform: rotate(-180deg);
+}
+
+.keyboard{
+  position:absolute;
+  width:100%;
+  top:520px;
+  left:422px;
+}
+.keys{
+  position: relative;
+}
 .white, .red {
-  width:64%;
+  width:3.1%;
   height:177px;
   border: black solid 3px;
   box-shadow: 2px 2px black
